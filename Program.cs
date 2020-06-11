@@ -14,19 +14,19 @@ namespace Abstraction
         static void Main(string[] args)
         {
             /*MatKul matkul;
-            matkul = new SO();
+            matkul = new Wirausaha();
             matkul.Jadwal();
 
             Console.WriteLine();
-            matkul = new HS();
+            matkul = new Informasi();
             matkul.Jadwal();*/
 
             IMataKuliah matkul;
-            matkul = new SO();
+            matkul = new Wirausaha();
             matkul.Jadwal();
 
             Console.WriteLine();
-            matkul = new HS();
+            matkul = new Informasi();
             matkul.Jadwal();
             Console.ReadKey();
         }
